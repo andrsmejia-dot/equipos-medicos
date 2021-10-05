@@ -1,0 +1,13 @@
+[
+    {
+        "id" : "1",
+        "tipo" : "electrico",
+        "imagen" : "http://localhost:3000/img/circuito.jpeg"
+    },
+    {
+        "id" : "2",
+        "tipo" : "mecanico",
+        "imagen" : "http://localhost:3000/img/engranes.jpeg"
+    }
+
+]

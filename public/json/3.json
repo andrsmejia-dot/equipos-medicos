@@ -1,0 +1,25 @@
+{
+    "_id":"3",
+    "nombre":"JERINGA",
+    "riesgo": "CLASE I",
+    "fabricante": "98762345",
+    "proveedor":"27495863",
+    "serial":"FKO7345867",
+    "marca":"TEOMECANIC",
+    "modelo":"SIN DOLOR",
+    "registro_sanitario":"2074EGB-00798217",
+    "tipo":"MECANICO",
+    "cantidad_consumibles":0,
+    "ubicacion":"TODOS",
+    "edad_delequipo":{
+        "vida_util":1,
+        "tiempo_en_funcionamiento": 1
+    },
+    "fecha_compra": {
+        "inicio_de_garantia": "2018-05-14",
+        "final_de_garantia": "2018-09-14"
+    },
+    "ultimo_mantenimiento": "2018-04-04",
+    "descripcion":"Instrumento para introducir líquidos en conductos, cavidades o tejidos orgánicos o extraerlos del cuerpo, en especial para poner inyecciones; consiste en un tubo hueco de vidrio, metal o plástico con un émbolo en su interior que aspira o impele el líquido, según el movimiento que se le dé, y con un extremo terminado en una cánula donde se introduce una aguja hueca, que se clava en la parte del cuerpo en la que se quiere introducir o de la que se quiere extraer un líquido.",
+    "imagen" : "http://localhost:3000/img/jeringa.jpg"
+}

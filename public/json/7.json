@@ -1,0 +1,25 @@
+{
+    "_id":"7",
+    "nombre":"ECOCARDIOGRAFO",
+    "riesgo": "CLASE IIA",
+    "fabricante": "98567345",
+    "proveedor":"24243578",
+    "serial":"PDV435646824",
+    "marca":"MINDRAY",
+    "modelo":"M9",
+    "registro_sanitario":"2014DM-CO12155",
+    "tipo":"ELECTRONICO",
+    "cantidad_consumibles": 2,
+    "ubicacion":"CONSULTA EXTERNA",
+    "edad_delequipo":{
+        "vida_util": 5,
+        "tiempo_en_funcionamiento": 2
+    },
+    "fecha_compra": {
+        "inicio_de_garantia":"2019-01-14",
+        "final_de_garantia":"2020-01-14"
+    },
+    "ultimo_mantenimiento":"2021-07-21",
+    "descripcion":"Un ecocardiograma usa ondas sonoras para producir imágenes del corazón. Esta prueba común le permite al médico ver cómo el corazón late y bombea sangre. El médico puede usar las imágenes de un ecocardiograma para identificar enfermedades cardíacas.",
+    "imagen" : "http://localhost:3000/img/ecocardiografo.jpg"
+}

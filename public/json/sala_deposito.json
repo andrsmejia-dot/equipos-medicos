@@ -1,0 +1,27 @@
+[
+    {
+        "id":"9",
+        "nombre":"CONGELADOR VERTICAL",
+        "riesgo": "CLASE IA",
+        "fabricante": "98567345",
+        "proveedor": "24243578",
+        "serial":"25695694",
+        "marca":"HAIER",
+        "modelo":"DW-40L262",
+        "registro_sanitario":"45646",
+        "tipo":"electrico",
+        "cantidad_consumibles": 3,
+        "ubicacion":"sala_deposito",
+        "edad_delequipo":{
+            "vida_util": 20,
+            "tiempo_en_funcionamiento": 9
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2014-02-25",
+            "final_de_garantia":"2034-02-30"
+        },
+        "ultimo_mantenimiento": "2020-05-26",
+        "descripcion" : "El congelador vertical está equipado con controles de temperatura precisos, interiores resistentes y características de seguridad. Un socio perfecto para sus propósitos de almacenamiento en frío múltiple en una configuración de laboratorio contemporánea. Los controles de temperatura basados en microprocesador proporcionan una uniformidad de temperatura sobresaliente con un compresor de alta calidad para la eficiencia energética. Ampliamente utilizado para los requisitos de rutina de almacenamiento en frío en varios laboratorios y áreas de ciencias de la vida, incluidos biológicos, farmacéuticos y aplicaciones clínicas.",
+        "imagen" : "http://localhost:3000/img/congelador_vertical.jpg"
+    }
+]

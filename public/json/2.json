@@ -1,0 +1,25 @@
+{
+    "_id":"2",
+    "nombre":"CARRO DE PARO",
+    "riesgo": "CLASE IIA",
+    "fabricante": "24243578",
+    "proveedor":"98567345",
+    "serial":"FS27369867",
+    "marca":"MONO ELECTRIC",
+    "modelo":"SUPER CARRO MONITOR",
+    "registro_sanitario":"2034EGK-00730217",
+    "tipo":"ELECTRONICO",
+    "cantidad_consumibles":12,
+    "ubicacion":"TODOS",
+    "edad_delequipo":{
+        "vida_util":5,
+        "tiempo_en_funcionamiento": 2
+    },
+    "fecha_compra": {
+        "inicio_de_garantia": "2018-05-14",
+        "final_de_garantia": "2020-01-14"
+    },
+    "ultimo_mantenimiento": "2019-04-14",
+    "descripcion":"El carro de paro es una unidad móvil compacta, que asegura, garantiza e integra los equipos para atender en forma inmediata una emergencia médica con amenaza inminente a la vida por paro cardiorrespiratorio o por aparente colapso cardiovascular, en los servicios asistenciales de urgencias.",
+    "imagen" : "http://localhost:3000/img/carro_paro.jpg"
+}

@@ -1,0 +1,23 @@
+/* Estilos de equipos */
+.fa-hospital-alt{
+    font-size: 2rem;
+}
+.card-body .card-title{
+    font-size: 0.9rem;
+    color: #2D6A4F;
+}
+/* Propiedades botón */
+.btn-light{
+    color: #40916C;
+}
+
+.btn-light:hover{
+    color: #52B788;
+    font-size: 1.05rem;
+}
+
+.card{
+    background-color: #B7E4C7;
+    box-shadow: 1px 5px 5px #888888;
+    position: static;
+}

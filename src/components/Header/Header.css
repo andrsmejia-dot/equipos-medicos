@@ -1,0 +1,68 @@
+/* Header styles */
+
+/* General Flex container */
+.container-header{
+    display: flex;
+    flex-direction: row;
+    background-color: #95D5B2;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 576px){
+    .container-header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+    /* Left Container (Tittle) */
+.container-titulo{
+    flex: 40%;
+    text-align: center;
+}
+.title{
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+    color: #1B4332;
+    text-decoration: none;
+    text-align: center;
+}
+.title:hover{
+    color: #1b4332d8;
+}
+
+    /* Center Container (Menu) */
+.container-menu{
+    flex: 30%;
+}
+.container-header .boton-icono{
+    font-size: 2rem;
+    margin: 20px 15px;
+    color: #1B4332;
+    background-color: #95D5B2;
+    text-decoration: none;
+    border: none;
+    float: left;
+}
+.fa-bars:hover{
+    font-size: 2.2rem;
+}
+
+
+    /* Right Container (Users) */
+.container-usuario{
+    flex: 30%;
+}
+#boton-usuarios{
+    font-size: 2rem;
+    margin: 20px 15px;
+    color: #1B4332;
+    background-color: #95D5B2;
+    text-decoration: none;
+    border: none;
+    padding-right: 2rem;
+    float: right;
+}
+.fa-user-md:hover{
+    font-size: 2.2rem;
+}

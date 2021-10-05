@@ -1,0 +1,25 @@
+{
+    "_id":"10",
+    "nombre":"AIREADOR",
+    "riesgo": "CLASE I",
+    "fabricante": "98567345",
+    "proveedor": "68340973",
+    "serial":"7856566",
+    "marca":"HAIER",
+    "modelo":"DW-40L262",
+    "registro_sanitario":"13546",
+    "tipo":"ELECTRONICO",
+    "cantidad_consumibles": 7,
+    "ubicacion":"CONSULTORIO",
+    "edad_delequipo":{
+        "vida_util": 15,
+        "tiempo_en_funcionamiento": 7
+    },
+    "fecha_compra": {
+        "inicio_de_garantia":"2014-02-25",
+        "final_de_garantia":"2030-05-16"
+    },
+    "ultimo_mantenimiento": "2021-04-16",
+    "descripcion":"El Esterilizador/Aireador 3M™ Steri-Vac™ GS8-1D es un sistema de esterilización de baja temperatura efectivo y seguro 100% de óxido de etileno para la esterilización de dispositivos médicos en instituciones de salud como de empresas que prestan el servicio de esterilización clínica. La serie GS provee un control de monitoreo independiente con la última tecnología de diseño mecánico compatible.",
+    "imagen" : "http://localhost:3000/img/aireador.jpg"
+}

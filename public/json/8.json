@@ -1,0 +1,26 @@
+{
+    "_id":"8",
+    "nombre":"BASCULA",
+    "riesgo": "CLASE IIA",
+    "fabricante": "27495863",
+    "proveedor": "24243578",
+    "serial":"45698794",
+    "marca":"HEALTH O METER",
+    "modelo":"K-9872",
+    "registro_sanitario":"63546",
+    "tipo":"MECANICO",
+    "cantidad_consumibles":"5",
+    "ubicacion":"CUBICULO PEDIATRÍA",
+    "edad_delequipo":{
+        "vida_util":10,
+        "tiempo_en_funcionamiento":5
+    },
+    "fecha_compra": {
+        "inicio_de_garantia":"2015-02-25",
+        "final_de_garantia":"2025-05-16"
+    },
+    
+    "ultimo_mantenimiento":"2018-08-24",
+    "descripcion":"Una Báscula es un instrumento de medición que se utiliza para determinar el valor de la masa de un objeto, siendo esta masa la cantidad de materia de dicho objeto. Comúnmente a esta determinación se le conoce como 'Pesar', por lo que una Báscula se utiliza para pesar masas.",
+    "imagen" : "http://localhost:3000/img/bascula.jpg"
+}

@@ -1,0 +1,11 @@
+.card .card-ubicacion-top{
+    width: 100%;
+}
+
+#ubicacion{
+    text-transform: uppercase;
+}
+
+.card .text-center:hover{
+    size: 1rem;
+}

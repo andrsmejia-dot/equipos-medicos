@@ -1,0 +1,25 @@
+{
+    "_id": "4",
+    "nombre":"BOMBA DE INFUSION",
+    "riesgo": "CLASE IIB",
+    "fabricante": "12345678",
+    "proveedor":"68340973",
+    "serial":"ASF5367467",
+    "marca":"B BRAUN",
+    "modelo":"INFUSOMAT SPACE",
+    "registro_sanitario":"2008EBC-0002717",
+    "tipo":"ELECTRONICO",
+    "cantidad_consumibles": 6,
+    "ubicacion":"CIRUGÍA",
+    "edad_delequipo":{
+        "vida_util": 10,
+        "tiempo_en_funcionamiento": 5
+    },
+    "fecha_compra": {
+        "inicio_de_garantia":"2016-01-14",
+        "final_de_garantia":"2018-01-14"
+    },
+    "ultimo_mantenimiento": "2021-07-04",
+    "descripcion":"Una bomba de infusión es un dispositivo electrónico capaz de suministrar, mediante la programación de parámetros básicos (como son el volumen total a infundir, velocidad de infusión (dada en ml/h) y/o lapso de tiempo a infundir en horas y minutos) y de manera controlada, un fármaco o sustancia por vía intravenosa a pacientes que por su condición así lo requieran.",
+    "imagen" : "http://localhost:3000/img/Bomba_infusion.jpg"
+}

@@ -1,0 +1,53 @@
+[
+    {
+        "id":"2",
+        "nombre":"CARRO DE PARO",
+        "riesgo": "CLASE IIA",
+        "fabricante": "24243578",
+        "proveedor":"98567345",
+        "serial":"FS27369867",
+        "marca":"MONO ELECTRIC",
+        "modelo":"SUPER CARRO MONITOR",
+        "registro_sanitario":"2034EGK-00730217",
+        "tipo":"electrico",
+        "cantidad_consumibles":12,
+        "ubicacion":"todos",
+        "edad_delequipo":{
+            "vida_util":5,
+            "tiempo_en_funcionamiento": 2
+        },
+        "fecha_compra": {
+            "inicio_de_garantia": "2018-05-14",
+            "final_de_garantia": "2020-01-14"
+        },
+        "ultimo_mantenimiento": "2019-04-14",
+        "descripcion":"El carro de paro es una unidad móvil compacta, que asegura, garantiza e integra los equipos para atender en forma inmediata una emergencia médica con amenaza inminente a la vida por paro cardiorrespiratorio o por aparente colapso cardiovascular, en los servicios asistenciales de urgencias.",
+        "imagen" : "http://localhost:3000/img/carro_paro.jpg"
+    },
+
+    {
+        "id":"3",
+        "nombre":"JERINGA",
+        "riesgo": "CLASE I",
+        "fabricante": "98762345",
+        "proveedor":"27495863",
+        "serial":"FKO7345867",
+        "marca":"TEOMECANIC",
+        "modelo":"LP-987",
+        "registro_sanitario":"2074EGB-00798217",
+        "tipo":"mecanico",
+        "cantidad_consumibles":0,
+        "ubicacion":"todos",
+        "edad_delequipo":{
+            "vida_util":1,
+            "tiempo_en_funcionamiento": 1
+        },
+        "fecha_compra": {
+            "inicio_de_garantia": "2018-05-14",
+            "final_de_garantia": "2018-09-14"
+        },
+        "ultimo_mantenimiento": "2018-04-04",
+        "descripcion":"Instrumento para introducir líquidos en conductos, cavidades o tejidos orgánicos o extraerlos del cuerpo, en especial para poner inyecciones; consiste en un tubo hueco de vidrio, metal o plástico con un émbolo en su interior que aspira o impele el líquido, según el movimiento que se le dé, y con un extremo terminado en una cánula donde se introduce una aguja hueca, que se clava en la parte del cuerpo en la que se quiere introducir o de la que se quiere extraer un líquido.",
+        "imagen" : "http://localhost:3000/img/jeringa.jpg"
+    }
+]

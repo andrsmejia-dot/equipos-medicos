@@ -1,0 +1,181 @@
+[
+    {
+        "id":"1",
+        "nombre":"ELECTROBISTURI",
+        "riesgo": "CLASE IIB",
+        "fabricante": "24243578",
+        "proveedor":"12345678",
+        "serial":"ASQ5369867",
+        "marca":"B BRAUN",
+        "modelo":"BISTURI SPACE",
+        "registro_sanitario":"2008EBK-00056717",
+        "tipo":"electrico",
+        "cantidad_consumibles":12,
+        "ubicacion":"CIRUGÍA",
+        "edad_delequipo":{
+            "vida_util":4,
+            "tiempo_en_funcionamiento": 2
+        },
+        "fecha_compra": {
+            "inicio_de_garantia": "2018-01-14",
+            "final_de_garantia": "2022-01-14"
+        },
+        "ultimo_mantenimiento": "2019-02-14",
+        "descripcion":"El electrobisturí, también llamado bisturí eléctrico, unidad quirúrgica o aparato de HF (alta frecuencia), es un aparato eléctrico que convierte la energía eléctrica en calor con el objetivo de cortar, eliminar o coagular tejido blando como el muscular, gracias a corrientes que están por encima de 200.000 Hz. Se utilizan estas frecuencias porque sólo producen calor, y porque si utilizara frecuencias más bajas, podría interferir con los procesos nerviosos del cuerpo.",
+        "imagen" : "http://localhost:3000/img/electrobisturí.jpg"
+    },
+
+    {
+        "id":"2",
+        "nombre":"CARRO DE PARO",
+        "riesgo": "CLASE IIA",
+        "fabricante": "24243578",
+        "proveedor":"98567345",
+        "serial":"FS27369867",
+        "marca":"MONO ELECTRIC",
+        "modelo":"SUPER CARRO MONITOR",
+        "registro_sanitario":"2034EGK-00730217",
+        "tipo":"electrico",
+        "cantidad_consumibles":12,
+        "ubicacion":"TODOS",
+        "edad_delequipo":{
+            "vida_util":5,
+            "tiempo_en_funcionamiento": 2
+        },
+        "fecha_compra": {
+            "inicio_de_garantia": "2018-05-14",
+            "final_de_garantia": "2020-01-14"
+        },
+        "ultimo_mantenimiento": "2019-04-14",
+        "descripcion":"El carro de paro es una unidad móvil compacta, que asegura, garantiza e integra los equipos para atender en forma inmediata una emergencia médica con amenaza inminente a la vida por paro cardiorrespiratorio o por aparente colapso cardiovascular, en los servicios asistenciales de urgencias.",
+        "imagen" : "http://localhost:3000/img/carro_paro.jpg"
+    },
+    {
+        "id": "4",
+        "nombre":"BOMBA DE INFUSION",
+        "riesgo": "CLASE IIB",
+        "fabricante": "12345678",
+        "proveedor":"68340973",
+        "serial":"ASF5367467",
+        "marca":"B BRAUN",
+        "modelo":"INFUSOMAT SPACE",
+        "registro_sanitario":"2008EBC-0002717",
+        "tipo":"electrico",
+        "cantidad_consumibles": 6,
+        "ubicacion":"CIRUGÍA",
+        "edad_delequipo":{
+            "vida_util": 10,
+            "tiempo_en_funcionamiento": 5
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2016-01-14",
+            "final_de_garantia":"2018-01-14"
+        },
+        "ultimo_mantenimiento": "2021-07-04",
+        "descripcion":"Una bomba de infusión es un dispositivo electrónico capaz de suministrar, mediante la programación de parámetros básicos (como son el volumen total a infundir, velocidad de infusión (dada en ml/h) y/o lapso de tiempo a infundir en horas y minutos) y de manera controlada, un fármaco o sustancia por vía intravenosa a pacientes que por su condición así lo requieran.",
+        "imagen" : "http://localhost:3000/img/Bomba_infusion.jpg"
+    },
+
+    {
+        "id":"5",
+        "nombre":"DESFIBRILADOR",
+        "riesgo": "CLASE IIB",
+        "fabricante": "12345678",
+        "proveedor":"98762345",
+        "serial":"OHB328947545",
+        "marca":"NIHON KOHDEN",
+        "modelo":"CARDIO LIFE",
+        "registro_sanitario":"2008EBC-0002632",
+        "tipo":"electrico",
+        "cantidad_consumibles": 3,
+        "ubicacion":"CIRUGÍA",
+        "edad_delequipo":{
+            "vida_util":10,
+            "tiempo_en_funcionamiento": 2
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2019-01-14",
+            "final_de_garantia":"2020-01-14"
+        },
+        "ultimo_mantenimiento":"2021-05-14",
+        "descripcion":"Un desfibrilador es un equipo electrónico que sirve para el diagnóstico, mediante un electrocardiograma, del ritmo cardíaco del paciente y restablecerlo tras haber sufrido una fibrilación ventricular o una taquicardia ventricular. Recupera a la persona tras una parada cardiorrespiratoria a través de una o varias descargas eléctricas controladas. La parada cardíaca puede ocurrir en circunstancias muy variados, de manera fortuita, debido a la el corazón (asistolia), especialmente en casos de arritmias muy graves como la fibrilación ventricular.",
+        "imagen" : "http://localhost:3000/img/desfibrilador.jpg"
+    },
+    {
+        "id":"7",
+        "nombre":"ECOCARDIOGRAFO",
+        "riesgo": "CLASE IIA",
+        "fabricante": "98567345",
+        "proveedor":"24243578",
+        "serial":"PDV435646824",
+        "marca":"MINDRAY",
+        "modelo":"M9",
+        "registro_sanitario":"2014DM-CO12155",
+        "tipo":"electrico",
+        "cantidad_consumibles": 2,
+        "ubicacion":"CONSULTA EXTERNA",
+        "edad_delequipo":{
+            "vida_util": 5,
+            "tiempo_en_funcionamiento": 2
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2019-01-14",
+            "final_de_garantia":"2020-01-14"
+        },
+        "ultimo_mantenimiento":"2021-07-21",
+        "descripcion":"Un ecocardiograma usa ondas sonoras para producir imágenes del corazón. Esta prueba común le permite al médico ver cómo el corazón late y bombea sangre. El médico puede usar las imágenes de un ecocardiograma para identificar enfermedades cardíacas.",
+        "imagen" : "http://localhost:3000/img/ecocardiografo.jpg"
+    },
+    {
+        "id":"9",
+        "nombre":"CONGELADOR VERTICAL",
+        "riesgo": "CLASE IA",
+        "fabricante": "98567345",
+        "proveedor": "24243578",
+        "serial":"25695694",
+        "marca":"HAIER",
+        "modelo":"DW-40L262",
+        "registro_sanitario":"45646",
+        "tipo":"electrico",
+        "cantidad_consumibles": 3,
+        "ubicacion":"SALA DEPOSITO",
+        "edad_delequipo":{
+            "vida_util": 20,
+            "tiempo_en_funcionamiento": 9
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2014-02-25",
+            "final_de_garantia":"2034-02-30"
+        },
+        "ultimo_mantenimiento": "2020-05-26",
+        "descripcion" : "El congelador vertical está equipado con controles de temperatura precisos, interiores resistentes y características de seguridad. Un socio perfecto para sus propósitos de almacenamiento en frío múltiple en una configuración de laboratorio contemporánea. Los controles de temperatura basados en microprocesador proporcionan una uniformidad de temperatura sobresaliente con un compresor de alta calidad para la eficiencia energética. Ampliamente utilizado para los requisitos de rutina de almacenamiento en frío en varios laboratorios y áreas de ciencias de la vida, incluidos biológicos, farmacéuticos y aplicaciones clínicas.",
+        "imagen" : "http://localhost:3000/img/congelador_vertical.jpg"
+    },
+
+
+    {
+        "id":"10",
+        "nombre":"AIREADOR",
+        "riesgo": "CLASE I",
+        "fabricante": "98567345",
+        "proveedor": "68340973",
+        "serial":"7856566",
+        "marca":"HAIER",
+        "modelo":"DW-40L262",
+        "registro_sanitario":"13546",
+        "tipo":"electrico",
+        "cantidad_consumibles": 7,
+        "ubicacion":"CONSULTORIO",
+        "edad_delequipo":{
+            "vida_util": 15,
+            "tiempo_en_funcionamiento": 7
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2014-02-25",
+            "final_de_garantia":"2030-05-16"
+        },
+        "ultimo_mantenimiento": "2021-04-16",
+        "descripcion":"El Esterilizador/Aireador 3M™ Steri-Vac™ GS8-1D es un sistema de esterilización de baja temperatura efectivo y seguro 100% de óxido de etileno para la esterilización de dispositivos médicos en instituciones de salud como de empresas que prestan el servicio de esterilización clínica. La serie GS provee un control de monitoreo independiente con la última tecnología de diseño mecanico compatible.",
+        "imagen" : "http://localhost:3000/img/aireador.jpg"
+    }
+]

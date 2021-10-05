@@ -1,0 +1,25 @@
+{
+    "_id":"6",
+    "nombre":"VACUOMETRO",
+    "riesgo": "CLASE IIA",
+    "fabricante": "27495863",
+    "proveedor":"68340973",
+    "serial":"PDV435646824",
+    "marca":"OHIO",
+    "modelo":"1224",
+    "registro_sanitario":"2008EBC-0002632",
+    "tipo":"MECÁNICO",
+    "cantidad_consumibles": 0,
+    "ubicacion":"CONSULTA EXTERNA",
+    "edad_delequipo":{
+        "vida_util": 5,
+        "tiempo_en_funcionamiento": 1
+    },
+    "fecha_compra": {
+        "inicio_de_garantia":"2020-01-14",
+        "final_de_garantia":"2021-01-14"
+    },
+    "ultimo_mantenimiento":"2021-03-09",
+    "descripcion":"El vacuómetro es un instrumento que nos sirve para poder medir cómo cae la presión en un determinado lugar o entorno. Es utilizado además en el secado al vacío de diferentes tipos de alimentos, en el secado del papel aislante, la deposición electrónica, en la soldadura por emisión de electrones y en el recubrimiento por evaporación. Es un instrumento que puede ser utilizado en la investigación científica y técnica.",
+    "imagen" : "http://localhost:3000/img/vacuometro.jpg"
+}

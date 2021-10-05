@@ -1,13 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1px;
+  color: #2D6A4F;
+  background: linear-gradient(to top, #B7E4C7, #FFF);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.margin-all {
+  margin-bottom: 1.5rem;
+}
+
+.card-description {
+  height: 100%;
+}
+
+.text-center-description {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#boton-up{
+  position: fixed;
+  border-radius: 1rem;
+  background-color: #74C69D;
+  border: none;
+  bottom: 2rem;
+  right: 1rem;
+  font-size: 1.7rem;
+}
+
+#marca-final{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+}
+
+.card-img-top{
+  object-fit: cover;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
 }

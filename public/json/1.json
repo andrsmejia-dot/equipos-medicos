@@ -1,0 +1,25 @@
+{
+    "_id":"1",
+    "nombre":"ELECTROBISTURI",
+    "riesgo": "CLASE IIB",
+    "fabricante": "24243578",
+    "proveedor":"12345678",
+    "serial":"ASQ5369867",
+    "marca":"B BRAUN",
+    "modelo":"BISTURI SPACE",
+    "registro_sanitario":"2008EBK-00056717",
+    "tipo":"ELECTRONICO",
+    "cantidad_consumibles":12,
+    "ubicacion":"CIRUGÍA",
+    "edad_delequipo":{
+        "vida_util":4,
+        "tiempo_en_funcionamiento": 2
+    },
+    "fecha_compra": {
+        "inicio_de_garantia": "2018-01-14",
+        "final_de_garantia": "2022-01-14"
+    },
+    "ultimo_mantenimiento": "2019-02-14",
+    "descripcion":"El electrobisturí, también llamado bisturí eléctrico, unidad quirúrgica o aparato de HF (alta frecuencia), es un aparato eléctrico que convierte la energía eléctrica en calor con el objetivo de cortar, eliminar o coagular tejido blando como el muscular, gracias a corrientes que están por encima de 200.000 Hz. Se utilizan estas frecuencias porque sólo producen calor, y porque si utilizara frecuencias más bajas, podría interferir con los procesos nerviosos del cuerpo.",
+    "imagen" : "http://localhost:3000/img/electrobisturí.jpg"
+}

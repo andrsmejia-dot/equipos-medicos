@@ -1,0 +1,77 @@
+[
+    {
+        "id":"1",
+        "nombre":"ELECTROBISTURI",
+        "riesgo": "CLASE IIB",
+        "fabricante": "24243578",
+        "proveedor":"12345678",
+        "serial":"ASQ5369867",
+        "marca":"B BRAUN",
+        "modelo":"BISTURI SPACE",
+        "registro_sanitario":"2008EBK-00056717",
+        "tipo":"electrico",
+        "cantidad_consumibles":12,
+        "ubicacion":"cirugia",
+        "edad_delequipo":{
+            "vida_util":4,
+            "tiempo_en_funcionamiento": 2
+        },
+        "fecha_compra": {
+            "inicio_de_garantia": "2018-01-14",
+            "final_de_garantia": "2022-01-14"
+        },
+        "ultimo_mantenimiento": "2019-02-14",
+        "descripcion":"El electrobisturí, también llamado bisturí eléctrico, unidad quirúrgica o aparato de HF (alta frecuencia), es un aparato eléctrico que convierte la energía eléctrica en calor con el objetivo de cortar, eliminar o coagular tejido blando como el muscular, gracias a corrientes que están por encima de 200.000 Hz. Se utilizan estas frecuencias porque sólo producen calor, y porque si utilizara frecuencias más bajas, podría interferir con los procesos nerviosos del cuerpo.",
+        "imagen" : "http://localhost:3000/img/electrobisturí.jpg"
+    },
+    {
+        "id": "4",
+        "nombre":"BOMBA DE INFUSION",
+        "riesgo": "CLASE IIB",
+        "fabricante": "12345678",
+        "proveedor":"68340973",
+        "serial":"ASF5367467",
+        "marca":"B BRAUN",
+        "modelo":"INFUSOMAT SPACE",
+        "registro_sanitario":"2008EBC-0002717",
+        "tipo":"electrico",
+        "cantidad_consumibles": 6,
+        "ubicacion":"cirugia",
+        "edad_delequipo":{
+            "vida_util": 10,
+            "tiempo_en_funcionamiento": 5
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2016-01-14",
+            "final_de_garantia":"2018-01-14"
+        },
+        "ultimo_mantenimiento": "2021-07-04",
+        "descripcion":"Una bomba de infusión es un dispositivo electrónico capaz de suministrar, mediante la programación de parámetros básicos (como son el volumen total a infundir, velocidad de infusión (dada en ml/h) y/o lapso de tiempo a infundir en horas y minutos) y de manera controlada, un fármaco o sustancia por vía intravenosa a pacientes que por su condición así lo requieran.",
+        "imagen" : "http://localhost:3000/img/Bomba_infusion.jpg"
+    },
+    {
+        "id":"5",
+        "nombre":"DESFIBRILADOR",
+        "riesgo": "CLASE IIB",
+        "fabricante": "12345678",
+        "proveedor":"98762345",
+        "serial":"OHB328947545",
+        "marca":"NIHON KOHDEN",
+        "modelo":"CARDIO LIFE",
+        "registro_sanitario":"2008EBC-0002632",
+        "tipo":"electrico",
+        "cantidad_consumibles": 3,
+        "ubicacion":"cirugia",
+        "edad_delequipo":{
+            "vida_util":10,
+            "tiempo_en_funcionamiento": 2
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2019-01-14",
+            "final_de_garantia":"2020-01-14"
+        },
+        "ultimo_mantenimiento":"2021-05-14",
+        "descripcion":"Un desfibrilador es un equipo electrónico que sirve para el diagnóstico, mediante un electrocardiograma, del ritmo cardíaco del paciente y restablecerlo tras haber sufrido una fibrilación ventricular o una taquicardia ventricular. Recupera a la persona tras una parada cardiorrespiratoria a través de una o varias descargas eléctricas controladas. La parada cardíaca puede ocurrir en circunstancias muy variados, de manera fortuita, debido a la el corazón (asistolia), especialmente en casos de arritmias muy graves como la fibrilación ventricular.",
+        "imagen" : "http://localhost:3000/img/desfibrilador.jpg"
+    }
+]

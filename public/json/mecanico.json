@@ -1,0 +1,78 @@
+[
+    {
+        "id":"3",
+        "nombre":"JERINGA",
+        "riesgo": "CLASE I",
+        "fabricante": "98762345",
+        "proveedor":"27495863",
+        "serial":"FKO7345867",
+        "marca":"TEOMECANIC",
+        "modelo":"LP-987",
+        "registro_sanitario":"2074EGB-00798217",
+        "tipo":"mecanico",
+        "cantidad_consumibles":0,
+        "ubicacion":"TODOS",
+        "edad_delequipo":{
+            "vida_util":1,
+            "tiempo_en_funcionamiento": 1
+        },
+        "fecha_compra": {
+            "inicio_de_garantia": "2018-05-14",
+            "final_de_garantia": "2018-09-14"
+        },
+        "ultimo_mantenimiento": "2018-04-04",
+        "descripcion":"Instrumento para introducir líquidos en conductos, cavidades o tejidos orgánicos o extraerlos del cuerpo, en especial para poner inyecciones; consiste en un tubo hueco de vidrio, metal o plástico con un émbolo en su interior que aspira o impele el líquido, según el movimiento que se le dé, y con un extremo terminado en una cánula donde se introduce una aguja hueca, que se clava en la parte del cuerpo en la que se quiere introducir o de la que se quiere extraer un líquido.",
+        "imagen" : "http://localhost:3000/img/jeringa.jpg"
+    },
+    {
+        "id":"6",
+        "nombre":"VACUOMETRO",
+        "riesgo": "CLASE IIA",
+        "fabricante": "27495863",
+        "proveedor":"68340973",
+        "serial":"PDV435646824",
+        "marca":"OHIO",
+        "modelo":"1224",
+        "registro_sanitario":"2008EBC-0002632",
+        "tipo":"mecanico",
+        "cantidad_consumibles": 0,
+        "ubicacion":"CONSULTA EXTERNA",
+        "edad_delequipo":{
+            "vida_util": 5,
+            "tiempo_en_funcionamiento": 1
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2020-01-14",
+            "final_de_garantia":"2021-01-14"
+        },
+        "ultimo_mantenimiento":"2021-03-09",
+        "descripcion":"El vacuómetro es un instrumento que nos sirve para poder medir cómo cae la presión en un determinado lugar o entorno. Es utilizado además en el secado al vacío de diferentes tipos de alimentos, en el secado del papel aislante, la deposición electrónica, en la soldadura por emisión de electrones y en el recubrimiento por evaporación. Es un instrumento que puede ser utilizado en la investigación científica y técnica.",
+        "imagen" : "http://localhost:3000/img/vacuometro.jpg"
+    },
+    {
+        "id":"8",
+        "nombre":"BASCULA",
+        "riesgo": "CLASE IIA",
+        "fabricante": "27495863",
+        "proveedor": "24243578",
+        "serial":"45698794",
+        "marca":"HEALTH O METER",
+        "modelo":"K-9872",
+        "registro_sanitario":"63546",
+        "tipo":"mecanico",
+        "cantidad_consumibles":"5",
+        "ubicacion":"CUBICULO PEDIATRÍA",
+        "edad_delequipo":{
+            "vida_util":10,
+            "tiempo_en_funcionamiento":5
+        },
+        "fecha_compra": {
+            "inicio_de_garantia":"2015-02-25",
+            "final_de_garantia":"2025-05-16"
+        },
+        
+        "ultimo_mantenimiento":"2018-08-24",
+        "descripcion":"Una Báscula es un instrumento de medición que se utiliza para determinar el valor de la masa de un objeto, siendo esta masa la cantidad de materia de dicho objeto. Comúnmente a esta determinación se le conoce como 'Pesar', por lo que una Báscula se utiliza para pesar masas.",
+        "imagen" : "http://localhost:3000/img/bascula.jpg"
+    }
+]

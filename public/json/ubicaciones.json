@@ -1,0 +1,26 @@
+[
+    {
+        "ubicacion" :"cirugia",
+        "imagen" : "http://localhost:3000/img/cirugia.jpeg"
+    },
+    {
+        "ubicacion" :"todos",
+        "imagen" : "http://localhost:3000/img/todos.jpeg"
+    },
+    {
+        "ubicacion" :"consulta_externa",
+        "imagen" : "http://localhost:3000/img/consulta-externa.jpeg"
+    },
+    {
+        "ubicacion" :"cubiculo_pediatria",
+        "imagen" : "http://localhost:3000/img/pediatria.jpeg"
+    },
+    {
+        "ubicacion" :"sala_deposito",
+        "imagen" : "http://localhost:3000/img/deposito.jpeg"
+    },
+    {
+        "ubicacion" :"consultorio",
+        "imagen" : "http://localhost:3000/img/consultorio.jpeg"
+    }
+]
