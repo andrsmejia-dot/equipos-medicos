@@ -33,7 +33,7 @@ function TipoEquipos(){
                             <h5 className="card-title"><i>TIPO:</i> {equipo.tipo}</h5>
                             <h5 className="card-title"><i>MODELO:</i> {equipo.modelo}</h5>
                             <Link to={`/equipo/${equipo.id}`} classNameName="boton-link">
-                                <p className="btn btn-light">INFORMACIÓN <i class="far fa-file-alt"></i></p>
+                                <p className="btn btn-light">INFORMACIÓN <i className="far fa-file-alt"></i></p>
                             </Link>
                         </div>
                     </div>

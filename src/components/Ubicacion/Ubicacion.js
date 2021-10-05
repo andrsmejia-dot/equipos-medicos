@@ -14,7 +14,7 @@ function Ubicacion(){
     return (
         <section id="ubicacion">
             <h1 className= "mb-3" id="tipo">
-                UBICACIONES <i class="far fa-hospital"></i>
+                UBICACIONES <i className="far fa-hospital"></i>
             </h1>
             <section className="row">
         {/* <!-- Ubicacion --> */}

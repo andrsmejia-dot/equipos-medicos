@@ -24,7 +24,7 @@ function Equipos() {
                     <div className="card text-center">
                         <img src={equipo.imagen} className="card-img-top" alt={equipo.nombre}/>
                         <div className="card-body">
-                            <h5 className="card-title"><strong>{equipo.nombre}</strong></h5>
+                            <h5 className="card-title" key={equipo.id}><strong>{equipo.nombre}</strong></h5>
                             <h5 className="card-title"><i>MARCA:</i> {equipo.marca}</h5>
                             <h5 className="card-title"><i>TIPO:</i> {equipo.tipo}</h5>
                             <h5 className="card-title"><i>MODELO:</i> {equipo.modelo}</h5>

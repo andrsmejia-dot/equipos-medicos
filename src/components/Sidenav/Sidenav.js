@@ -13,17 +13,17 @@ function Sidenav({ open, menuClickedFunction }){
         <ul id="menus">
             <li>
                 <Link to="/equipos">
-                    <i class="fas fa-toolbox"></i> EQUIPOS
+                    <i className="fas fa-toolbox"></i> EQUIPOS
                 </Link>
             </li>
             <li>
                 <Link to="/tipo">
-                    <i class="fas fa-signature"></i> TIPO
+                    <i className="fas fa-signature"></i> TIPO
                 </Link>
             </li>
             <li>
                 <Link to="/ubicacion">
-                    <i class="far fa-hospital"></i> UBICACIÓN
+                    <i className="far fa-hospital"></i> UBICACIÓN
                 </Link>
             </li>
         </ul>

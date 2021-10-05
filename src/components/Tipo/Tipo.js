@@ -15,7 +15,7 @@ function Tipo(){
     return (
         <section id="imgs">
             <h1 className= "mb-3" id="tipo">
-                <i class="fas fa-charging-station"></i> TIPO <i class="fas fa-cogs"></i>
+                <i className="fas fa-charging-station"></i> TIPO <i className="fas fa-cogs"></i>
             </h1>
             <section className="row">
         {/* <!-- imgs --> */}
