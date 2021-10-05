@@ -23,6 +23,8 @@ function Layout(props){
     <main className="container pt-5">
       <Route {...props} />
     </main>
+    {/* Botón para volver arriba */}
+    <a href="#"><button id="boton-up"><i class="fas fa-sort-up"></i></button></a>
     </>
     );
 }

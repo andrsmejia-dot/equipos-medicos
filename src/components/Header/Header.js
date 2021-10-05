@@ -15,7 +15,9 @@ function Header({ menuClickedFunction}){
             </div>
             {/* Users Button */}
             <div className="container-usuario">
-                <button id="boton-usuarios" className="boton-icono-usuarios"><i class="fas fa-user-md"></i></button>
+                <Link to = "/login">
+                    <button id="boton-usuarios" className="boton-icono-usuarios"><i class="fas fa-user-md"></i></button>
+                </Link>
             </div>
         </div>
     );

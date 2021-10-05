@@ -7,8 +7,12 @@ import Tipo from './components/Tipo/Tipo';
 import TipoEquipos from './components/TipoEquipo/TipoEquipos';
 import Ubicacion from './components/Ubicacion/Ubicacion';
 import UbicacionEquipos from './components/UbicacionEquipos/UbicacionEquipos';
+import { useState } from 'react';
+import Login from './components/Login/Login';
 
 function App() {
+
+  // const [user, setUser] = useState({ islogged: flase});
   return (
     <>
     <Router>
@@ -19,6 +23,10 @@ function App() {
         {/* Información de equipos */}
         <Layout path = "/equipo/:id">
           <Equipo/>
+        </Layout>
+        {/* User */}
+        <Layout path ="/login">
+          <Login/>
         </Layout>
         {/* Buscando por tipo de equipo */}
         <Layout path ="/tipo">
@@ -40,11 +48,6 @@ function App() {
         </Layout>
       </Switch>
     </Router>
-    {/* Botón para volver arriba */}
-    <a href="#"><button id="boton-up"><i class="fas fa-sort-up"></i></button></a>
-    <footer class="d-grid margin-all">
-        <a href="#" class="btn btn-outline-success" role="button" id="marca-final">WebDevTech &copy; 2021</a>
-    </footer>
     </>
   );
 }
