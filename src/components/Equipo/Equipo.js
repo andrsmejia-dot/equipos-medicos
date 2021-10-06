@@ -16,7 +16,7 @@ function Equipo(){
     
     return (
         <section className="row">
-        <article className="col-12 margin-all">
+        <article className="col-lg-1 col-xl-12 margin-all">
             <div className="card text-center">
                 <img src= {equipo.imagen} className="card-img-top" alt={equipo.nombre}/>
             </div>

@@ -10,10 +10,14 @@ import UbicacionEquipos from './components/UbicacionEquipos/UbicacionEquipos';
 import Login from './components/Login/Login';
 import { UserContext } from "./contexts/UserContext";
 import { useState } from "react";
+import GuardarEquipo from './components/GuardarEquipo/GuardarEquipo';
 
 function App() {
 
-  const [user, setUser] = useState({ isLoggedIn: false });
+  const userStorage = JSON.parse(localStorage.getItem("user"));
+  const [user, setUser] = useState(
+    userStorage ? userStorage : { isLoggedIn: false }
+  );
   
   return (
     <>
@@ -30,6 +34,10 @@ function App() {
           {/* User */}
           <Layout path ="/login">
             <Login/>
+          </Layout>
+          {/* Guardando nuevo equipo */}
+          <Layout path="/guardar-equipo/:id?">
+            <GuardarEquipo />
           </Layout>
           {/* Buscando por tipo de equipo */}
           <Layout path ="/tipo">

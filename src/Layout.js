@@ -20,11 +20,11 @@ function Layout(props){
     >
     </Sidenav>
     <Header menuClickedFunction = {toggleMenuLateral}></Header>
-    <main classnNameName="container pt-5">
+    <main className="container pt-5">
       <Route {...props} />
     </main>
-    {/* Botón para volver arriba */}
-    <a href="#"><button id="boton-up"><i classnName="fas fa-sort-up"></i></button></a>
+    {/* Botón para volver al encabezado de la página */}
+    <a href="#"><button id="boton-up"><i className="fas fa-sort-up"></i></button></a>
     </>
     );
 }

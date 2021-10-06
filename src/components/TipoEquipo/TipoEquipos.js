@@ -32,7 +32,7 @@ function TipoEquipos(){
                             <h5 className="card-title"><i>MARCA:</i> {equipo.marca}</h5>
                             <h5 className="card-title"><i>TIPO:</i> {equipo.tipo}</h5>
                             <h5 className="card-title"><i>MODELO:</i> {equipo.modelo}</h5>
-                            <Link to={`/equipo/${equipo.id}`} classNameName="boton-link">
+                            <Link to={`/equipo/${equipo.id}`} className="boton-link">
                                 <p className="btn btn-light">INFORMACIÓN <i className="far fa-file-alt"></i></p>
                             </Link>
                         </div>

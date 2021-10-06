@@ -8,7 +8,7 @@ html, body {
   letter-spacing: 1px;
   color: #2D6A4F;
   background: linear-gradient(to top, #B7E4C7, #FFF);
-  height: 100%;
+  min-height:100%
 }
 
 .margin-all {
